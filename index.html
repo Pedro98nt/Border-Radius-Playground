@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Border</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class='wrap'>
+            <span id="result">&nbsp;</span>
+            <div id='blob'></div>
+            <div class='controls'>
+              <div class='height'>
+                <input class='radius' id='height' max='200' min='0' step='1' type='range' value='200'>
+              </div>
+              <div class='width'>
+                <input class='radius' id='width' max='200' min='0' step='1' type='range' value='200'>
+              </div>
+              <div class='topleft'>
+                <input class='radius' id='topLeft' max='2000' min='0' step='1' type='range' value='500'>
+                <input class='radius' id='topLeft2' max='2000' min='0' step='1' type='range' value='500'>
+              </div>
+              <div class='topright'>
+                <input class='radius' id='topRight' max='2000' min='0' step='1' type='range' value='500'>
+                <input class='radius' id='topRight2' max='2000' min='0' step='1' type='range' value='500'>
+              </div>
+              <div class='bottomright'>
+                <input class='radius' id='bottomRight' max='2000' min='0' step='1' type='range' value='500'>
+                <input class='radius' id='bottomRight2' max='2000' min='0' step='1' type='range' value='500'>
+              </div>
+              <div class='bottomleft'>
+                <input class='radius' id='bottomLeft' max='2000' min='0' step='1' type='range' value='500'>
+                <input class='radius' id='bottomLeft2' max='2000' min='0' step='1' type='range' value='500'>
+              </div>
+            </div>
+          </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
